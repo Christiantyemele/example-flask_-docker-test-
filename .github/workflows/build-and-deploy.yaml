@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.username }}
+  IMAGE_NAME: image
 
 jobs:
   build-and-deploy:
